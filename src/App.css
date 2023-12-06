@@ -54,7 +54,7 @@
     --mainTextSize3: 200px;
     --textAnimation: marquee 10s linear infinite;
     --carrersMargin: 0px 20px 0px 80px;
-    --portImgWidth: calc(100vw - 40px);
+    --portImgWidth: calc(100vw - 40px); 
     --portArrow: none;
     --direction: column;
     --portPaddingLeft: 0px;
@@ -329,7 +329,7 @@
   margin:0px 20px 0px 20px;
 }
 
-.circle{
+.carrersLine .circle{
   width: 12px;
   min-width: 12px;
   max-width: 12px;
@@ -340,12 +340,13 @@
   border-radius: 250px;
 }
 
-.line{
+.carrersLine .line{
   width: 3px;
   height: 100%;
   background-color: #323232;
 }
 
+ 
 .lastCarrers{
   display: flex;
   flex-direction: column;
@@ -477,6 +478,38 @@
   50% { transform: translateY(-5px); }
   100% { transform: translateY(0px); }
 }
+
+.characterItem{
+  display: flex;
+  flex-direction: var(--direction);
+  /* 여기 */
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+
+.chImg{
+  height: auto;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+ }
+ 
+ .chColor{
+  display: flex;
+ }
+ .chColor div{
+  width: 25px;
+  height: 25px;
+  margin-right:5px;
+  border:3px solid #323232;
+  border-radius: 50px;
+
+ }
 
 .portfolioItem{
   display: flex;
