@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="3000px" height="3000px" viewBox="0 0 3000 3000" style="enable-background:new 0 0 3000 3000;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF1E6;}
+	.st1{fill:#F995AD;}
+	.st2{fill:#C1C1C1;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#353535;}
+	.st5{fill:#231815;}
+</style>
+<path class="st0" d="M2931.2,2917H56.6V56.5h2874.7V2917H2931.2z"/>
+<path class="st1" d="M2893,231.7H93V93h2800V231.7z"/>
+<g>
+	<rect x="2539.9" y="113.7" class="st2" width="96.8" height="96.8"/>
+	<polygon class="st3" points="2543.3,207.1 2538.3,212.1 2538.3,112.1 2638.3,112.1 2633.3,117.1 2543.3,117.1 	"/>
+	<polygon class="st4" points="2638.3,212.1 2538.3,212.1 2543.3,207.1 2633.3,207.1 2633.3,117.1 2638.3,112.1 	"/>
+</g>
+<g>
+	<rect x="2656.5" y="113.7" class="st2" width="96.8" height="96.8"/>
+	<polygon class="st3" points="2659.9,207.1 2654.9,212.1 2654.9,112.1 2754.9,112.1 2749.9,117.1 2659.9,117.1 	"/>
+	<polygon class="st4" points="2754.9,212.1 2654.9,212.1 2659.9,207.1 2749.9,207.1 2749.9,117.1 2754.9,112.1 	"/>
+</g>
+<g>
+	<rect x="2773.1" y="113.7" class="st2" width="96.8" height="96.8"/>
+	<polygon class="st3" points="2776.5,207.1 2771.5,212.1 2771.5,112.1 2871.5,112.1 2866.5,117.1 2776.5,117.1 	"/>
+	<polygon class="st4" points="2871.5,212.1 2771.5,212.1 2776.5,207.1 2866.5,207.1 2866.5,117.1 2871.5,112.1 	"/>
+</g>
+<rect x="2565.8" y="175.6" class="st5" width="45.1" height="5.3"/>
+<rect x="2818.8" y="138.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 712.598 2042.2181)" class="st5" width="5.3" height="45.1"/>
+<rect x="2799" y="158.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 712.5677 2042.2908)" class="st5" width="45.1" height="5.3"/>
+<path class="st5" d="M2681.1,141.1V181h45.1v-39.9H2681.1z M2720.8,175.6h-34.4v-29.2h34.4V175.6z"/>
+<polygon class="st3" points="65.4,2915.2 60.4,2915.2 60.4,60.2 2929.9,60.2 2929.9,65.2 65.4,65.2 "/>
+<polygon class="st2" points="60.4,2922.9 50.4,2922.9 50.4,50.4 2937.4,50.4 2937.4,60.4 60.4,60.4 "/>
+<polyline class="st4" points="2937.4,50.4 2937.4,2922.9 50.4,2922.9 60.4,2912.9 2927.4,2912.9 2927.4,60.4 "/>
+</svg>
