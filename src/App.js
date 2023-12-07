@@ -26,7 +26,6 @@ import port5 from './resource/port5.jpg'
 import port6 from './resource/port6.jpg'
 import port7 from './resource/port7.jpg'
 import port8 from './resource/port8.jpg'
-import profile from './resource/profile.jpg'
 import back from './resource/back.svg';
 import next from './resource/next.svg';
 import nav from './resource/nav.svg';
