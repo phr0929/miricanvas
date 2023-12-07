@@ -389,20 +389,20 @@
 }
 
 .carrersDate{
+  color:#5d5d5d;
   display: var(--menuDisplay);
   width: 115px;
   min-width: 115px;
   max-width: 115px;
-  font-weight: 500;
   
 }
 
 .carrersDate2{
+  color:#5d5d5d;
   display: var(--navDisplay);
   width: 60px;
   min-width: 60px;
   max-width: 60px;
-  font-weight: 500;
 }
 
 .carrersLine{
@@ -465,7 +465,7 @@
 }
 
 .carrersContents div{
-  color:#969696;
+  color:#5d5d5d;
   margin-top:5px;
 }
 
@@ -673,7 +673,7 @@
 
 .portContent{
   margin-bottom: 20px;
-  color: #969696;
+  color: #5d5d5d;
   display: flex;
   position: relative;
   z-index: 1000;
@@ -709,14 +709,29 @@
 }
 
 .goButton{
-  padding: 10px;
-  border:1px solid #5d5d5d;
+  padding: 10px 15px 10px 15px; 
+  border-radius: 5px;
+  color:#5d5d5d;
+  /* background-color:#eee; */
+  border:1px solid #ccc;
+  border-radius: 10PX;
   margin-right: 10px;
   position: relative;
   z-index: 1000;
   min-width: fit-content;
 }
-  
+.goButtonNull{
+  padding: 10px 15px 10px 15px; 
+  border-radius: 5px;
+  color:#ccc;
+  /* background-color:#eee; */
+  border:1px solid #ddd;
+  border-radius: 10PX;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1000;
+  min-width: fit-content;
+}
 
 .portButtonBar{
   display: flex;
@@ -832,6 +847,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   overflow: auto;
 }
+ 
 
 .miriImgLayout img{
   padding: var(--miriImgPadding);

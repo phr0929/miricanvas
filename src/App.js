@@ -335,10 +335,10 @@ const App =  (()=> {
                     </div>
                     <div className='carrersLayout'>
                       <div className='carrersDate'>
-                        2023.10 ~
+                        2023.11 ~
                       </div>
                       <div className='carrersDate2'>
-                        2012.10 ~<br/>
+                        2012.11 ~<br/>
                       </div> 
                       <div className='carrersLine'>
                         <div className='circle'/>
@@ -469,10 +469,16 @@ const App =  (()=> {
                               )} 
                             </div>
                             <div className='portLink'>
-                              {list[portNumber].link.length===1?
+                              {portNumber>=2?
+                                <div className='goButtonNull'>
+                                 사이트 바로가기
+                                </div>
+                                :
+                               list[portNumber].link.length===1?
                                 list[portNumber].link.map((vvval,vvidx)=>
                                   <div key={vvidx} className='goButton' onClick={()=>window.open(vvval)}>
-                                    {portNumber===4?'인스타그램 보러가기':'사이트 바로가기'}</div>
+                                    사이트 바로가기
+                                  </div>
                               ):list[portNumber].link.map((vvval,vvidx)=>
                                 <div key={vvidx} className='goButton' onClick={()=>window.open(vvval)}>
                                   {vvidx===0?'Google Play':'App Store'}
@@ -518,9 +524,10 @@ const App =  (()=> {
                               )} 
                             </div>
                             <div className='chLink'>
+                              {chNumber===3?<></>:
                               <div className='goButton' onClick={()=>window.open('https://instagram.com/discontent.cat')}>
                                     인스타그램 보러가기
-                              </div> 
+                              </div>}
                               <div className='chVideoLayout'>
                                 <div>
                                   <video 
